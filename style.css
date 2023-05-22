@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+main {
+  display: flex;
+}
+
 .header {
   align-items: center;
   background-color: rgb(50, 167, 145);
@@ -28,6 +32,11 @@
 
 .trybewarts-login button {
   width: 20%;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
 
 #trybewarts-header-title {
