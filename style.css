@@ -4,6 +4,7 @@
 }
 
 .header {
+  align-items: center;
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
@@ -27,4 +28,9 @@
 
 .trybewarts-login button {
   width: 20%;
+}
+
+#trybewarts-header-title {
+  color: white;
+  text-transform: uppercase;
 }
