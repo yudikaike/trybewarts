@@ -4,7 +4,10 @@
 }
 
 main {
+  align-items: center;
   display: flex;
+  height: 85vh;
+  justify-content: space-around;
 }
 
 .header {
@@ -43,4 +46,8 @@ main {
 #trybewarts-header-title {
   color: white;
   text-transform: uppercase;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
