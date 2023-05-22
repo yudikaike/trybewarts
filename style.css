@@ -6,9 +6,25 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  justify-content: space-between;
 }
 
 .trybewarts-header-logo {
-  margin: 0.5em;
   height: 5vh;
+  margin: 0.5em;
+}
+
+.trybewarts-login {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.trybewarts-login input {
+  width: 35%;
+}
+
+.trybewarts-login button {
+  width: 20%;
 }
