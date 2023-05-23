@@ -51,13 +51,17 @@ main {
   margin: 0.25em;
 }
 
-#field-name {
+#field-name, #field-email-house {
   display: flex;
   justify-content: space-between;
 }
 
-#field-name input {
+#field-name input, #field-email-house input {
   width: 343px;
+}
+
+#field-email-house select {
+  width: 347px;
 }
 
 #trybewarts-header-title {
