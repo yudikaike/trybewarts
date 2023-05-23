@@ -43,6 +43,10 @@ main {
   width: 675px;
 }
 
+#evaluation-form input {
+  margin: 0.25em;
+}
+
 #trybewarts-header-title {
   color: white;
   text-transform: uppercase;
