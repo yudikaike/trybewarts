@@ -51,6 +51,12 @@ main {
   margin: 0.25em;
 }
 
+#field-comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75em;
+}
+
 #field-name, #field-email-house {
   display: flex;
   justify-content: space-between;
