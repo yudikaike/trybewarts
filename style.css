@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+fieldset {
+  border: none;
+}
+
 main {
   align-items: center;
   display: flex;
@@ -45,6 +49,15 @@ main {
 
 #evaluation-form input, #evaluation-form select {
   margin: 0.25em;
+}
+
+#field-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+#field-name input {
+  width: 343px;
 }
 
 #trybewarts-header-title {
