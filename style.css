@@ -64,6 +64,16 @@ main {
   width: 347px;
 }
 
+#field-family {
+  display: flex;
+  flex-direction: column;
+  margin: 0.25em;
+}
+
+#field-family label {
+  margin: 0.25em;
+}
+
 #trybewarts-header-title {
   color: white;
   text-transform: uppercase;
