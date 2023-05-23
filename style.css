@@ -74,6 +74,12 @@ main {
   margin: 0.25em;
 }
 
+#field-rate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75em;
+}
+
 #group-select {
   display: flex;
   justify-content: space-between;
