@@ -57,21 +57,26 @@ main {
 }
 
 #field-name input, #field-email-house input {
-  width: 343px;
+  width: 323px;
 }
 
 #field-email-house select {
-  width: 347px;
+  width: 327px;
 }
 
-#field-family {
+#field-family, #field-subject {
   display: flex;
   flex-direction: column;
   margin: 0.25em;
 }
 
-#field-family label {
+#field-family label, #field-subject label {
   margin: 0.25em;
+}
+
+#group-select {
+  display: flex;
+  justify-content: space-between;
 }
 
 #trybewarts-header-title {
