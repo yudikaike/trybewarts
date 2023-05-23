@@ -65,6 +65,11 @@ main {
   margin-top: 0.75em;
 }
 
+#field-counter {
+  display: flex;
+  justify-content: space-between;
+}
+
 #field-name, #field-email-house {
   display: flex;
   justify-content: space-between;

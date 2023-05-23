@@ -16,9 +16,18 @@ function agreement() {
   });
 }
 
+function count() {
+  const counter = document.querySelector('#counter');
+  const textarea = document.querySelector('#textarea');
+  textarea.addEventListener('keyup', () => {
+    counter.innerText = 500 - textarea.value.length;
+  });
+}
+
 function handler() {
   login();
   agreement();
+  count();
 }
 
 window.onload = handler;
