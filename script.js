@@ -8,8 +8,17 @@ function login() {
   });
 }
 
+function agreement() {
+  const checkbox = document.querySelector('#agreement');
+  const submit = document.querySelector('#submit-btn');
+  checkbox.addEventListener('click', () => {
+    submit.disabled = !submit.disabled;
+  });
+}
+
 function handler() {
   login();
+  agreement();
 }
 
 window.onload = handler;
