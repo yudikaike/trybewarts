@@ -51,6 +51,10 @@ main {
   margin: 0.25em;
 }
 
+#field-agreement {
+  margin-top: 0.75em;
+}
+
 #field-comment {
   display: flex;
   flex-direction: column;
