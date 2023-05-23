@@ -51,7 +51,7 @@ main {
   margin: 0.25em;
 }
 
-#field-agreement {
+#field-agreement, #submit-btn {
   margin-top: 0.75em;
 }
 
