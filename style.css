@@ -7,6 +7,10 @@ fieldset {
   border: none;
 }
 
+footer {
+  text-align: center;
+}
+
 main {
   align-items: center;
   display: flex;
