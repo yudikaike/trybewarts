@@ -43,7 +43,7 @@ main {
   width: 675px;
 }
 
-#evaluation-form input {
+#evaluation-form input, #evaluation-form select {
   margin: 0.25em;
 }
 
